@@ -17,8 +17,5 @@ This Git repository contains the code for a simple Android application that demo
 - Kotlin 
 - AdapterView and Adapters for data binding
 
-## Contributing
-Feel free to contribute to the project by forking the repository and submitting pull requests. If you encounter any issues or have suggestions, please create an issue in the repository.
-
 ## Acknowledgments
 The project was created as part of mobile development coursework (tp2) at INSAT.
