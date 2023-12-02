@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FF00FF"
+    android:gravity="left"
+    android:paddingLeft="30dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:text="Recycler View - TP 2"
+    android:textColor="#FFFFFF"
+    android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        style="@style/CustomSpinnerStyle"
+        android:layout_below="@id/titre" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="597dp"
+        android:layout_below="@id/spinner" />
+</RelativeLayout>

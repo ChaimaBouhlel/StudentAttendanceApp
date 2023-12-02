@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomSpinnerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/titre</item>
+        <item name="android:background">#EFEFEF</item> <!-- Background color -->
+        <item name="android:padding">8dp</item> <!-- Padding around the Spinner -->
+        <item name="android:layout_margin">16dp</item> <!-- Margin around the Spinner -->
+        <item name="android:spinnerMode">dropdown</item> <!-- Show a dropdown arrow -->
+        <item name="android:popupBackground">#FFFFFF</item> <!-- Dropdown background color -->
+    </style>
+</resources>
